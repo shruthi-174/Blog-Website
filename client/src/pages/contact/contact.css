@@ -1,0 +1,54 @@
+.contact {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://firstmarkservices.com/wp-content/uploads/banner-contact-us.jpg");
+    background-size: cover;
+  }
+  
+  .contactTitle {
+    font-size: 65px;
+  }
+  
+  .contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm > label {
+    margin: 10px ;
+    font-size: 20px;
+  }
+  
+  .contactInput {
+    font-size: 15px;
+    padding: 14px;
+    background-color: white;
+   
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+  .contactInput:focus {
+    outline: none;
+  }
+  
+  .submitButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
